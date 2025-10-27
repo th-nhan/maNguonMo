@@ -17,6 +17,9 @@ int tong(int a, int b){
 	}
 int hieu(int a, int b){
 	return a-b;
+}void chithanh()
+{
+	cout<<"Chi Thanh";
 }
 int main()
 {
@@ -29,6 +32,7 @@ int main()
 	int b=6;
 	cout<<tich(a,b);
 	cout<<thuont(a,b);
+	chithanh();
 	system("pause");
 	return 0;
 }
